@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/naturali/mgo"
+	"github.com/naturali/mgo/bson"
+	"github.com/naturali/mgo/dbtest"
+	"github.com/naturali/mgo/txn"
 	. "gopkg.in/check.v1"
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
-	"gopkg.in/mgo.v2/dbtest"
-	"gopkg.in/mgo.v2/txn"
 )
 
 func TestAll(t *testing.T) {

@@ -37,9 +37,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/naturali/mgo"
+	"github.com/naturali/mgo/bson"
 	. "gopkg.in/check.v1"
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
 )
 
 func (s *S) TestRunString(c *C) {
