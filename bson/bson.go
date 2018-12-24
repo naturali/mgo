@@ -106,7 +106,7 @@ var SetZero = errors.New("set to zero")
 // There's no special handling for this type in addition to what's done anyway
 // for an equivalent map type.  Elements in the map will be dumped in an
 // undefined ordered. See also the bson.D type for an ordered alternative.
-type M map[string]interface{}
+type M = map[string]interface{}
 
 // D represents a BSON document containing ordered elements. For example:
 //
